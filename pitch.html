@@ -6,6 +6,48 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #2e1f3e;
+        color: #ffffff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 10%;
+        font-size: 17px;
+        /* font-family: "Ubuntu", sans-serif; */
+        text-align: center;
+        min-height: 100vh;
+        font-family: "Inter", sans-serif;
+        /* font-family: "Mulish", sans-serif; */
+      }
+      .nav-bar {
+        display: flex;
+        background-color: #050607;
+        border: none;
+        justify-content: end;
+      }
+      .navigation {
+        display: inherit;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 32px;
+        border: none;
+        padding: 0 80px;
+        height: 50%;
+      }
+      .nav-links {
+        display: inherit;
+        color: #ffffff;
+        line-break: normal;
+        text-decoration: none;
+        list-style: none;
+        font-size: 24px;
+      }
+
       p {
         text-align: center;
         word-spacing: normal;
@@ -14,6 +56,13 @@
     </style>
   </head>
   <body>
+    <nav class="nav-bar">
+      <ul class="navigation">
+        <li class="nav-links">
+          <a href="index.html" rel="noreffer" class="nav-links">Hjem</a>
+        </li>
+      </ul>
+    </nav>
     <p>
       Pitch - Jørgen Hei, jeg heter Jørgen. For tiden er jeg kursdeltaker hos
       Jobloop i kurset Kodehode. I kurset har jeg fått en innføring i HTML/CSS
