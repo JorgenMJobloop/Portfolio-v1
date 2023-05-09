@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/logo1.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="App.js" defer></script>
+    <title>Portfolio</title>
+  </head>
+  <body onload="displayClock()">
+    <nav class="nav-bar">
+      <div class="dropdown">
+        <button class="dropdown-btn">
+          <img
+            src="images/meny.svg"
+            height="30px"
+            width="30px
+            "
+          />
+        </button>
+        <div class="dropdown-content">
+          <p>Tools</p>
+          <a href="https://www.gnu.org/software/bash/" target="_blank"
+            ><img src="images/Console.svg" class="icon-gallery"
+          /></a>
+          <a href="https://www.wireshark.org/" target="_blank"
+            ><img src="images/wireshark.svg" class="icon-gallery" /> </a
+          ><a href="https://www.debian.org/" target="_blank"
+            ><img src="images/debian.svg" class="icon-gallery" /> </a
+          ><a href="https://www.redhat.com/en/topics/api/what-is-a-rest-api"
+            ><img src="images/Rest API.svg" class="icon-gallery" /> </a
+          ><a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTTP"
+            target="_blank"
+            ><img src="images/Http.svg" class="icon-gallery" /> </a
+          ><a href="https://www.virtualbox.org/" target="_blank"
+            ><img src="images/VirtualBox.svg" class="icon-gallery" /> </a
+          ><a href="https://www.vmware.com/" target="_blank"
+            ><img src="images/VMware.svg" class="icon-gallery" /> </a
+          ><a href="https://docker.com" target="_blank"
+            ><img src="images/Docker.svg" class="icon-gallery"
+          /></a>
+        </div>
+      </div>
+      <div id="clock" class="datetime-bar"></div>
+      <ul class="navigation">
+        <li class="nav-links">
+          <a href="#index.html" rel="noreffer" class="nav-links">Home</a>
+        </li>
+        <li class="nav-links">
+          <a href="#footer" id="footer-anchor" class="nav-links">About</a>
+        </li>
+        <li class="nav-links">
+          <a href="#info-section" target="_self" class="nav-links">Projects</a>
+        </li>
+        <li class="nav-links">
+          <a
+            href="https://github.com/jorgen-kodehode"
+            target="_blank"
+            class="nav-links"
+            >Github</a
+          >
+        </li>
+      </ul>
+      <header class="header-section"></header>
+    </nav>
+    <main>
+      <section class="landing">
+        <img
+          src="images/cooldude.svg"
+          alt="about-me-picture"
+          class="about-img"
+        />
+        <div class="paragraphs">
+          <p>
+            Hello. I am Jorgen. I'm 28 years old, I enjoy playing the guitar,
+            exercising & programming in various languages.
+          </p>
+          <p>
+            Aswell as keeping up to date with the latest technology, and I
+            always enjoy learning more.
+          </p>
+          <p>
+            My previous work experience is a little bit of sales and technical
+            support for a mid-size business.
+          </p>
+          <p>
+            I have experience in a variety of different technologies, as listed
+            below.
+          </p>
+          <p>You can read my pitch <a href="pitch.html">here.</a></p>
+        </div>
+      </section>
+      <div class="list-section">
+        <ol class="known-technologies">
+          <li class="info-list">Microsoft Server Ecosystem</li>
+          <li class="info-list">Linux personal computing</li>
+          <li class="info-list">Linux Server Redhat & Fedora</li>
+          <li class="info-list">The Python programming language</li>
+          <li class="info-list">The Java programming langauge</li>
+          <li class="info-list">JavaScript & TypeScript</li>
+          <li class="info-list">ReactJS</li>
+          <li class="info-list">Network protocols & standards</li>
+          <li class="info-list">
+            C/C++ understanding & understanding of code-cost.
+          </li>
+          <li class="info-list">HTML/CSS Knowledge</li>
+          <li class="info-list">PHP knowledge</li>
+          <li class="info-list">Test-Driven-Development</li>
+          <li class="info-list">Backend technologies:</li>
+          <li class="info-list">MongoDB for noSQL</li>
+          <li class="info-list">mySQL for SQL Databases</li>
+          <li class="info-list">NodeJS</li>
+          <li class="info-list">OpenAPI</li>
+          <li class="info-list">API Development & JSON-based API usage</li>
+          <li class="info-list">Git CLI source-control & GitHub</li>
+          <li class="info-list">Understanding of how Oauth 2.0 works</li>
+          <li class="info-list">
+            Basic understanding of cryptography salts & hashes.
+          </li>
+        </ol>
+      </div>
+      <section class="information" id="info-section">
+        <h3>Projects</h3>
+        <p>These images contain links to various projects I have worked on.</p>
+        <div class="gallery">
+          <img
+            src="images/Frame 6.svg"
+            alt="technologies I have worked on in the past"
+            class="img-gallery"
+            id="tech"
+            onclick="displayNewPage(NaN, 0)"
+            tabindex="0"
+          />
+          <img
+            src="images/Frame 25.svg"
+            alt="small webapp"
+            class="img-gallery"
+            id="UI-design"
+            onclick="displayNewPage(NaN, 1)"
+            tabindex="0"
+          />
+          <img
+            src="images/Frame 13.svg"
+            alt="Button UI design"
+            class="img-gallery"
+            id="python3"
+            onclick="displayNewPage(NaN, 2)"
+            tabindex="0"
+          />
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="footer-container">
+          <div class="footer-list-1">
+            <h4 class="footer-list-1">Contact & Legal</h4>
+            <small
+              >Technologies used for educational & non-profit purposes!</small
+            >
+            <a
+              href="https://www.python.org/"
+              target="_blank"
+              class="footer-list-1"
+              >The Python foundation</a
+            >
+
+            <a
+              href="https://www.linuxfoundation.org/"
+              target="_blank"
+              class="footer-list-1"
+              >Linux foundation</a
+            >
+
+            <a
+              href="https://nodejs.org/en"
+              target="_blank"
+              class="footer-list-1"
+              >NodeJS</a
+            >
+
+            <a
+              href="https://www.mongodb.com/"
+              target="_blank"
+              class="footer-list-1"
+              >MongoDB</a
+            >
+
+            <a
+              href="https://www.oracle.com/"
+              target="_blank"
+              class="footer-list-1"
+              >Oracle</a
+            >
+
+            <a
+              href="https://www.microsoft.com/"
+              target="_blank"
+              class="footer-list-1"
+              >Microsoft</a
+            >
+
+            <a href="https://www.gnu.org/" target="_blank" class="footer-list-1"
+              >GNU</a
+            >
+          </div>
+          <div class="footer-list-2">
+            <h3 id="text-contact">Want to get in touch?</h3>
+            <a href="https://github.com/jorgen-kodehode" target="_blank">
+              <img
+                id="git-icon"
+                src="images/GitHub.svg"
+                height="60px"
+                width="30px"
+            /></a>
+            <p id="mailto-link">
+              <a
+                href="javascript:decodeB64('am9yZ2VuLmtvZGVob2RlQGdtYWlsLmNvbQ==')
+            "
+                id="mailto-adress"
+                >Contact me</a
+              >
+              <noscript
+                >Please turn on JavaScript if you want to contact me!</noscript
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
