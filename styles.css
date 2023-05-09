@@ -232,11 +232,11 @@ a {
   font-size: 20px;
 }
 a:hover {
-  color: #ffc7e6;
+  color: #d67dff;
   cursor: pointer;
 }
 a:focus {
-  color: #ffc7e6;
+  color: #d67dff;
   cursor: pointer;
   outline: none;
 }
