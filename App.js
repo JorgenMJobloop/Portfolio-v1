@@ -41,7 +41,7 @@ function displayNewPage(url, value) {
     window.open(url, "_blank");
   } else if (value === 2) {
     url = "button_design.html";
-    window.open(url, "_blank");
+    window.open(url, "_self");
   } else {
     return console.log("Error");
   }
