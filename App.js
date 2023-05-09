@@ -33,10 +33,7 @@ function checkTime(i) {
 }
 
 function displayNewPage(url, value) {
-  if (value === 0) {
-    url = "https://jorgen-kodehode.github.io/Personal-Media-Website/";
-    window.open(url, "_blank");
-  } else if (value === 1) {
+  if (value === 1) {
     url = "https://jorgen-kodehode.github.io/Meme-generator/";
     window.open(url, "_blank");
   } else if (value === 2) {
