@@ -37,8 +37,8 @@ function displayNewPage(url, value) {
     url = "https://jorgen-kodehode.github.io/Meme-generator/";
     window.open(url, "_blank");
   } else if (value === 2) {
-    url = "button_design.html";
-    window.open(url, "_self");
+    url = "https://jorgen-kodehode.github.io/Meme-generator/";
+    window.open(url, "_blank");
   } else {
     return console.log("Error");
   }
