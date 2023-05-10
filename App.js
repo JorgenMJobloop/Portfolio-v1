@@ -20,7 +20,10 @@ function displayClock() {
   minutes = checkTime(minutes);
   seconds = checkTime(seconds);
 
-  getClock.textContent = `${hour}:${minutes}:${seconds} : ${dateToday.toUTCString()}`;
+  getClock.textContent = `${hour}:${minutes}:${seconds} ${dateToday.toLocaleString(
+    "no-NO",
+    { timeZone: "UTC" }
+  )}`;
   setTimeout(displayClock, 1000);
 }
 function checkTime(i) {
