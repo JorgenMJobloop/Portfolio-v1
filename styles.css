@@ -61,7 +61,7 @@ body {
   z-index: 1;
   height: 43%;
   width: 15%;
-  margin-top: 0.08rem;
+  margin-top: 0.8px;
   background-size: cover;
   border: none;
 }
@@ -85,7 +85,7 @@ body {
   width: 15%;
   color: #fcf9fc;
   margin-left: 3rem;
-  margin-top: 0.3%;
+  margin-top: 0;
 }
 
 .landing {
