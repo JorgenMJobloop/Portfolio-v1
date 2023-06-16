@@ -37,7 +37,7 @@ function checkTime(i) {
 
 function displayNewPage(url, value) {
   if (value === 1) {
-    url = "https://jorgen-kodehode.github.io/Meme-generator/";
+    url = "https://github.com/jorgen-kodehode/react-personal-blog-v1";
     window.open(url, "_blank");
   } else if (value === 2) {
     url = "https://jorgen-kodehode.github.io/Meme-generator/";
